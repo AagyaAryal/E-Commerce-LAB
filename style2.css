@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 2rem;
+    
+   
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+    /* padding-right: 100px; */
+    
+    
+}
+.navigation-logo{
+    display: flex;
+}
+.navigation h3{
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.first-image{
+    width: 10%;
+    height: 163px;
+    width: fit-content;
+    overflow: hidden;
+    align-content: left;
+    margin-left: -240px;
+    margin-top: 45px;
+
+}
+.second-image{
+    width: 35%;
+    height: 100px;
+    overflow: hidden;
+    align-items: right;
+    margin-left: 800px;
+    float: right;
+    margin-top: -240px;
+}
+.third-image{
+    position: absolute;
+    width: 25%;
+    height: 210px;
+    overflow: hidden;
+    align-items: right;
+    margin-left: 1100px;
+    float: right;
+    margin-top: 180px;
+    z-index: 1;
+}
+
+.the_lab{
+    color: #094C40;
+    font-size: 70px;
+    margin-top: -130px;
+    margin-left: 150px;
+}
+
+.picture-grid{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto;
+    height: 400px;
+    width: 72%;
+    margin-left: 250px;
+    top: 90px;
+    
+}
+
+.grid-box img{
+    
+}
+
+.mid-content{
+    opacity: 0.3;
+}
+
+.digitalnews-img{
+    position: absolute;
+    top: 80px;
+    left:60px;
+    
+}
+
+.monthlysummary-img{ 
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+
+.heading_for_pic{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.paragraph_for_pic{
+    font-size: 17px;
+    word-spacing: 2px;
+}
+ .picture-grid a{
+    color: black;
+    margin-left: 180px;
+    margin-top: 70px;
+    font-size: 20px;
+ }
+
+ 
