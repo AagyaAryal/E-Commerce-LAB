@@ -1,0 +1,123 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body {
+  border: 3px solid red;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 1.5rem;
+}
+div[class*="nav"] {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+div[class*="nav"] > div {
+  padding-left: 1rem;
+  font-size: larger;
+  font-weight: 800;
+}
+
+img[alt="picture"] {
+  width: 3rem;
+}
+
+.first-section-used {
+  max-width: 100%;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.rectangle {
+  position: relative;
+  left: 45rem;
+  text-overflow: hidden;
+}
+
+.polygon {
+  position: relative;
+  left: -14rem;
+  top: -3rem;
+}
+
+.circle {
+  position: relative;
+  left: 49.5rem;
+  top: 15rem;
+}
+
+.first_overlapped_text {
+  border: 2px solid darkblue;
+  margin: -50rem;
+}
+.overlapped_text {
+  border: 2px solid black;
+  font-family: sans-serif;
+  font-weight: 1000;
+  color: #094c40;
+}
+
+/* second portion of first */
+
+/* last portion */
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.lastbody {
+  background-color: #094c40;
+  color: white;
+  height: 80rem;
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+div[class*="nav"] {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+div[class*="nav"] > div {
+  padding-left: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.rec-white {
+  position: relative;
+  left: 28rem;
+}
+
+.circle-white {
+  position: relative;
+  top: 23rem;
+  left: 36rem;
+}
+
+.text_wrap {
+  margin-left: 20rem;
+  position: relative;
+  color: white;
+  font-weight: 500;
+  top: -30rem;
+  max-width: 50%;
+  max-height: 50%;
+  text-align: center;
+  font-size: 9rem;
+  text-align: start;
+  z-index: 1;
+}
