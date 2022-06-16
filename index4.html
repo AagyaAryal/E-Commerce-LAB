@@ -7,91 +7,109 @@
     <title>Document</title>
     <style>
       * {
-        font-family: sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         margin: 0;
         padding: 0;
       }
       body {
         background-color: #094c40;
         color: white;
+        width: 1920px;
+        height: 1073px;
       }
+
       nav {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        margin: 2rem;
-        padding: 2rem;
-      }
-      div[class*="nav"] {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-between;
-        padding: 2rem;
+        margin: auto;
+        margin-top: 2rem;
+        margin-bottom: 58px;
+        width: 1741px;
+        height: 60.46px;
+        border: 2px solid yellow;
       }
 
-      div[class*="nav"] > div {
-        padding-left: 3rem;
-        font-size: 2rem;
-        font-weight: 500;
+      ul > li {
+        display: block;
+        float: left;
+        margin: 1rem;
       }
 
-      .rec-white {
+      main {
         position: relative;
-        left: 28rem;
+        margin-left: 170px;
+        margin-right: 166px;
+        height: 100%;
+        border: 2px solid purple;
       }
 
-      .circle-white {
-        position: relative;
-        top: 23rem;
-        left: 36rem;
+      .bckground-circle-polygon {
+        position: absolute;
+        height: 823.21px;
+        width: 100%;
+        top: 196.9px;
+        left: 94px;
+        border: 2px solid white;
       }
 
-      .text_wrap {
-        margin-left: 20rem;
-        position: relative;
-        color: white;
-        font-weight: 500;
-        top: -30rem;
-        max-width: 50%;
-        max-height: 50%;
-        text-align: center;
-        font-size: 9rem;
-        text-align: start;
-        z-index: 1;
+      .start-integration {
+        position: absolute;
+        font-size: 135px;
+        width: 658px;
+        height: 585px;
+        top: 231px;
+        line-height: 135px;
+      }
+
+      img[alt="grid-rectangle"] {
+        position: absolute;
+        width: 692.23px;
+        height: 202.59px;
+      }
+
+      img[alt="grid-circle"] {
+        position: absolute;
+        left: 93.6px;
+        bottom: 0;
+        width: 384.74px;
+        height: 384.74px;
+      }
+
+      li:nth-child(2) {
+        float: left;
+        font-size: 33px;
+        font-weight: bold;
+        border: 2px solid white;
+      }
+
+      li:last-child {
+        float: right;
+        font-size: 22px;
       }
     </style>
   </head>
   <body>
     <nav>
-      <div class="nav_first">
-        <div><img src="./4th_page/1nav.png" alt="picture" /></div>
-        <div class="e-commerce" style="font-size:3rem" ;">E-Commerce LAB</div>
-      </div>
-      <div class="nav_second">
-        <div>Contact us</div>
-        <div>
-          <img src="./4th_page/Group 6205.png" alt="two-circles" />
-        </div>
-        <div><img src="./4th_page/Repeat Grid 3.png" alt="lines" /></div>
-      </div>
+      <ul>
+        <li style="float: left">
+          <img src="./last-index/1nav.png" alt="nav-pic" />
+        </li>
+        <li>E-Commerce LAB</li>
+        <li style="float: right">
+          <img src="./4th_page/Repeat Grid 3.png" alt="three-lines" />
+        </li>
+        <li style="float: right">
+          <img src="./4th_page/Group 6205.png" alt="menu" />
+        </li>
+
+        <li>Contact us</li>
+      </ul>
     </nav>
 
-    <section>
-      <div>
-        <div class="rec-white">
-          <img src="./4th_page/Path 1109.png" alt="white-rectangle" />
-        </div>
-        <div class="circle-white">
-          <img src="./4th_page/Path 1103.png" alt="white-circle" />
-        </div>
+    <main>
+      <div class="bckground-circle-polygon">
+        <img src="./4th_page/Path 1109.png" alt="grid-rectangle" />
+        <img src="./4th_page/Path 1103.png" alt="grid-circle" />
       </div>
-
-      <div class="text_wrap">
-        Start <br />
-        Integration <br />
-        Contact <br />
-        LAB
-      </div>
-    </section>
+      <div class="start-integration">Start Integration Contact LAB</div>
+    </main>
   </body>
 </html>
